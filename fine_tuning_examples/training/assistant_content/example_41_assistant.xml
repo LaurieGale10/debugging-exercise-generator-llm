@@ -14,7 +14,7 @@
     </error-location>
     
     <explanation>
-    Removed the "salted caramel" flavour from the ice_cream_flavours list definition.
-    Added quotes to the print statement on line 2 so the ice_cream_flavours is not being printed to the screen.
+    Line 1: Removed the "salted caramel" flavour from the ice_cream_flavours list, adding a logical error.
+    Line 2: Added quotes to the print statement on so the string "ice_cream_flavours" is printed instead of the value of the list, adding a logical error.
     </explanation>
 </root>

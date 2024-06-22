@@ -31,12 +31,17 @@
     </error-location>
     
     <explanation>
-    Replaced the colons at the end lines of linew 1 and 4 with semi-colons.
-    Added quotes to the parameters of the range functions in lines 1 and 4, each adding a type error (instance of a runtime error in Python).
-    Changed the range parameter in line 1 from (1,6) to (5), adding a logical error.
-    Incorrectly indented lines 2 and 5, each adding syntax errors.
-    Misspelt the references to the i variable in lines 2 and 5, each adding runtime errors.
-    Changed the range parameter in line 1 from (6,11) to (10), adding a logical error.
-    Illogically indented lines 3 and 6, each adding logical errors.
+    Line 1: Replaced the colon at the end of the line with a semi-colon, adding a syntax error.
+    Line 1: Added quotes to the parameters of the range functions so it's a string rather than an int, adding a TypeError (an instance of a runtime error in Python).
+    Line 1: Changed the range parameter in line 1 from (1,6) to (5), adding a logical error.
+    Line 2: Added extra indentation to the line, adding a syntax error.
+    Line 2: Misspelt the reference to the "i" variable so that it no longer refers to a valid variable, adding a NameError (an instance of a runtime error in Python).
+    Line 3: Indented this line so that it's encapsulated as part of the while loop, adding a logical error.
+    Line 4: Replaced the colon at the end of the line with a semi-colon, adding a syntax error.
+    Line 4: Added quotes to the parameters of the range functions so it's a string rather than an int, adding a TypeError (an instance of a runtime error in Python).
+    Line 4: Changed the range parameter in from (6,11) to (10), adding a logical error.
+    Line 5: Added extra indentation to the line, adding a syntax error.
+    Line 5: Misspelt the reference to the "i" variable so that it no longer refers to a valid variable, adding a NameError (an instance of a runtime error in Python).
+    Line 6: Indented this line so that it's encapsulated as part of the while loop, adding a logical error.
     </explanation>
 </root> 

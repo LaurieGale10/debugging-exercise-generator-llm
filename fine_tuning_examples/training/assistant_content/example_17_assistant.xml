@@ -24,9 +24,9 @@
     </error-location>
     
     <explanation>
-    Removed the assignment operator (=) from the assignment on line 3. 
-    Unindented the return statement of the convert_to_uppercase() function
-    Added a comma in the call to the convert convert_to_uppercase() function
-    Switched around the " and + after the "Lower case" output in the final print statement, so that the print statement is not correctly formatted.
+    Line 3: Removed the assignment operator (=) from the assignment, adding a syntax error.
+    Line 5: Unindented this line, adding a syntax error.
+    Line 8: Added a comma in the call to the convert convert_to_uppercase() function #TODO: This doesn't add a syntax error.
+    Line 9: Switched around the " and + symbols after the "Lower case" string, adding a syntax error as the print statement is no longer correctly formatted.
     </explanation>
 </root>

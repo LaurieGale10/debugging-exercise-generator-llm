@@ -30,10 +30,11 @@
     </error-location>
     
     <explanation>
-    Changed the == to = in the if condition of line 6.
-    Removed the brackets from the call to the print function in line 9.
-    Removed the colon from the if statement clause and capitalised the reference to the number variable on line 10.
-    Erroneously renamed the "else" keyword to "elif".
-    Removed the necessary indentation on line 13.
+    Line 6: Replaced the equality operator (==) with an assignment operator (=) in the condition of the if statement, adding a syntax error in this case.
+    Line 9: Removed the brackets from the print statement, adding a syntax error.
+    Line 10: Removed the colon from the end of the elif clause on this line, adding a syntax error.
+    Line 10: Capitalised the reference to the number variable on line 10 so it no longer refers to a variable in the program, adding a NameError (an instance of a runtime error in Python).
+    Line 12: Renamed the "else" keyword to "elif", adding a syntax error.
+    Line 13: Removed the necessary indentation for this line, adding a syntax error.
     </explanation>
 </root>

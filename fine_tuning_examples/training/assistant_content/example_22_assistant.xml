@@ -25,9 +25,11 @@
     </error-location>
     
     <explanation>
-    Removed the float() type casts from lines 3 and 4, both introducing runtime errors.
-    Added three errors to line 6: removed the . from the call to the sqrt() function so it reads mathsqrt(), introducing a AttributeError (a type of runtime error).
-    Multiplied the opposite and adjacent variables in lines 6 by 2 rather than squaring them, both of which are logical errors.
-    Printed the values of the opposite and adjacent variable values rather than the value of the hypotenuse value in the final output statement.
+    Line 3: Removed the float() type cast from the opposite user input, adding a TypeError (an instance of a runtime error in Python).
+    Line 4: Removed the float() type cast from the adjacent user input, adding a TypeError (an instance of a runtime error in Python).
+    Line 6: Removed the . from the call to the math.sqrt() function, introducing a AttributeError (a type of runtime error).
+    Line 6: Multiplied the opposite variable by 2 rather than squaring it, adding a logical error.
+    Line 6: Multiplied the adjacent variable by 2 rather than squaring it, adding a logical error.
+    Line 8: Printed the values of the opposite and adjacent variable values rather than the value of the hypotenuse value, adding a logical error.
     </explanation>
 </root>

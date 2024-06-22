@@ -32,6 +32,8 @@
     </error-location>
     
     <explanation>
-    Changed the spelling of all of the function calls in lines 17,18 and 19. Each of these adds a NameError (a type of runtime error).
+    Line 18: Changed the spelling of the ask_name() function call to ask_Name(), so that it calls a non-existent function, adding a NameError (an instance of a runtime error in Python).
+    Line 19: Changed the spelling of the ask_age() function call to ask_Age(), so that it calls a non-existent function, adding a NameError (an instance of a runtime error in Python).
+    Line 19: Changed the spelling of the ask_favourite_colour() function call to ask_Favourite_colour(), so that it calls a non-existent function, adding a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

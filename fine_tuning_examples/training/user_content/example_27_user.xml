@@ -23,6 +23,6 @@ print(f"Volume in Litres = {timeToFillPool}")
 print(f"Time to fill pool = {timeToFillPool}")
 </correct-program>
 
-<syntax>8</syntax>
-<runtime>2</runtime>
+<syntax>7</syntax>
+<runtime>3</runtime>
 <logical>1</logical>

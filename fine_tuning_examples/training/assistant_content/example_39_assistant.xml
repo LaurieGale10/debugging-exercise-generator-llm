@@ -33,8 +33,8 @@
     </error-location>
     
     <explanation>
-    Removed the comma from the print statement in line 4, introducing a syntax error.
-    Capitalised the reference to the ask_name() function in line 17, which introduces a runtime error.
-    Replaced the call to the ask_favourite_colour() function on line 19 with ask_age(), meaning ask_favourite_colour() never gets called, resulting in a logical error.
+    Line 4: Removed the comma between the closing quote and name variable reference, introducing a syntax error.
+    Line 17: Capitalised the reference to the ask_name() function so that it no longer calls an existing function, adding a NameError (an instance of a runtime error in Python).
+    Line 19: Replaced the call to the ask_favourite_colour() function on with ask_age(), meaning ask_favourite_colour() never gets called, adding a logical error.
     </explanation>
 </root>

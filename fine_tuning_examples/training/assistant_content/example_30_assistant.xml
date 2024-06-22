@@ -26,10 +26,12 @@
     </error-location>
     
     <explanation>
-    Replaced assignment operators (=) with equality operators (==) in the assignments on lines 1 and 3.
-    Switched the ordering of the equals and operator signs on line 2 and 4.
-    Replaced the 100 with 1000 on line 2, adding a logical error.
-    Changed reference to "total" with "Total" on line 5, adding a runtime error.
-    Indented line 7, introducing another logical error.
+    Line 1: Replaced assignment operatos (=) with an equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 2: Switched the ordering of the = and < on line 2, adding a syntax error.
+    Line 2: Changed the right hand side value of the if statement condition from 100 to 1000, adding a logical error.
+    Line 3: Replaced assignment operatos (=) with an equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 4: Switched the ordering of the = and + on line 2, adding a syntax error.
+    Line 5: Capitalised the reference to the total variable so that it no longer refers to a variable in the program, adding a NameError (an instance of a runtime error in Python).
+    Line 7: Indented this line so that it executes within the while loop, adding a logical error.
     </explanation>
 </root>

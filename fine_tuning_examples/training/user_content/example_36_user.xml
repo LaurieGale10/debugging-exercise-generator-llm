@@ -40,6 +40,6 @@ while True:
 print("Program finished!")
 </correct-program>
 
-<syntax>6</syntax>
+<syntax>5</syntax>
 <runtime>3</runtime>
 <logical>3</logical>

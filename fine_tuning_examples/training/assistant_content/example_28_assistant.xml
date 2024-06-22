@@ -26,6 +26,6 @@
     </error-location>
     
     <explanation>
-    Added an initial line that declares the variables RATE_OF_FLOW, METRES_2_LITRES,SECONDS_2_HOURS without assigning them to any value.
+    Line 1: Added an initial line that declares the variables RATE_OF_FLOW, METRES_2_LITRES,SECONDS_2_HOURS without assigning them to any value, adding a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

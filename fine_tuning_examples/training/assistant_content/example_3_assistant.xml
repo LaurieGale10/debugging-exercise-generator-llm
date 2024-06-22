@@ -16,8 +16,8 @@
     
     <explanation>
     It is very difficult to add all 10 errors to the program without significantly changing its content, so only three syntax errors were added to this example.
-    Incorrectly indented line 1.
-    Removed the brackets from the call to the print() function.
-    Mismatched the quotation marks to the print statement.
+    Line 1: Incorrectly indented the line, adding a syntax error.
+    Line 1: Removed the brackets from the call to the print() function, adding a syntax error.
+    Line 1: Mismatched the quotation marks to the print statement, adding a syntax error.
     </explanation>
 </root>

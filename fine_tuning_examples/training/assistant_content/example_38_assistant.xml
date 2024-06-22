@@ -32,17 +32,20 @@
     8
     9
     12
-    Removed 14
-    Removed 17
+    Removed line 14 of original program
+    Removed line 18 of original program
     18
     </error-location>
     
     <explanation>
-    Replaced assignment operators (=) with equality operators in lines 3 and 8. Also removed the call to the input() function on line 8, meaning age would be assigned to a logically incorrect value.
-    Replaced the reference to the variable name with name being printed on line 4, introducing a logical error.
-    Removed the comma from the print statement line 9, introducing a syntax error.
-    Removed the brackets and colon from line 12, introducing a syntax error.
-    Removed lines 14 and 17, both necessary to the programs execution, introducing logical errors.
-    Removed the brackets from function call on line 17, adding a runtime error.
+    Line 3: Replaced the assignment operator (=) with the inequality operator (==) in the assignment, introducing a NameError (an instance of a runtime error in Python) in this case.
+    Line 4: Printed "age" instead of the value of the age variable, introducing a logical error.
+    Line 8: Replaced the assignment operator (=) with the inequality operator (==) in the assignment, introducing a NameError (an instance of a runtime error in Python) in this case.
+    Line 8: Removed the call to the input() function so the age variable is assigned to a string literal, adding a syntax error.
+    Line 9: Removed the comma from the print statement, adding a syntax error.
+    Line 12: Removed the brackets and colon from the function definition, adding a syntax error.
+    Line 14 of original program: Removed this print statement necessary to fulfill the problem description, adding a logical error.
+    Line 18 of original program: Removed this function call so that ask_age is never called, adding a logical error.
+    Line 18: Removed the brackets from function call on line 17, adding a runtime error. #TODO; Change - this doesn't add a runtime error.
     </explanation>
 </root>    

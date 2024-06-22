@@ -16,8 +16,8 @@
     </error-location>
     
     <explanation>
-    Mismatched the brackets on line 1, causing a syntax error.
-    Incorrectly indented line 2.
-    Mispelled the reference to the ice_cream_flavours in line 2.
+    Line 1: Mismatched the list brackets, adding a syntax error.
+    Line 2: Incorrectly indented this line, adding a syntax error.
+    Line 2: Mispelled the reference to the ice_cream_flavours variable so that it no longer refers to a valid variable, adding a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

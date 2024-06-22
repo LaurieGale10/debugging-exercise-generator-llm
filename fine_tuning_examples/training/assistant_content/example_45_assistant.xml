@@ -29,8 +29,12 @@
     </error-location>
     
     <explanation>
-    Changed the type of the numbers variable from a list to a string, causing a type error to be thrown at lines 7/8 (if the program is syntactically correct).
-    Misspelt the references to the numbers variable to Numbers on lines 4, 7, 8 and 11.
-    Incorrectly indented lines 7 and 8.
+    Line 1: Changed the type of the numbers variable from a list to a string, causing a TypeError (an instance of a runtime error in Python) to be thrown at lines 7/8.
+    Line 4: Changed the spelling of the reference to the numbers variable to Numbers, which does not exist in the program, introducing a NameError (an instance of a runtime error in Python). 
+    Line 7: Changed the spelling of the reference to the numbers variable to Numbers, which does not exist in the program, introducing a NameError (an instance of a runtime error in Python). 
+    Line 7: Incorrectly indented this line, adding a syntax error.
+    Line 8: Changed the spelling of the reference to the numbers variable to Numbers, which does not exist in the program, introducing a NameError (an instance of a runtime error in Python). 
+    Line 8: Incorrectly indented this line, adding a syntax error.
+    Line 11: Changed the spelling of the reference to the numbers variable to Numbers, which does not exist in the program, introducing a NameError (an instance of a runtime error in Python). 
     </explanation>
 </root>

@@ -34,8 +34,10 @@
     </error-location>
     
     <explanation>
-    Removed line 5, which is required to display the country2 variable in uppercase.
-    Incorrectly indented the else statements on lines 8 and 13.
-    Removed the len() function calls from lines 6 and 11, each introducing type errors (instances of runtime errors in Python).
+    Line 5 of original program: Removed the printing of the country2 variable in uppercase, adding a logical error.
+    Line 6: Removed the len() function call from the condition of the if statement, adding a TypeError (an instance of a runtime error in Python).
+    Line 8: Incorrectly indented this line, adding a syntax error.
+    Line 11: Removed the len() function call from the condition of the if statement, adding a TypeError (an instance of a runtime error in Python).
+    Line 13: Incorrectly indented this line, adding a syntax error.
     </explanation>
 </root>

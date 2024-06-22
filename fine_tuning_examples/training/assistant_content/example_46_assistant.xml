@@ -25,8 +25,9 @@
     </error-location>
     
     <explanation>
-    Incorrectly initialised the numbers list in line 1 so it contains numbers 0-4 instead of 1-5.
-    Replaced the remove() function calls with append() in lines 7 and 8.
-    Printed the length of the numbers list rather than the actual numbers list.
+    Line 1: Incorrectly initialised the numbers list in line 1 so it contains numbers 0-4 instead of 1-5, adding a logical error.
+    Line 7: Replaced the remove() function calls with append(), adding a logical error.
+    Line 8: Replaced the remove() function calls with append(), adding a logical error.
+    Line 11: Printed the length of the numbers list rather than the actual numbers list, adding a logical error.
     </explanation>
 </root>

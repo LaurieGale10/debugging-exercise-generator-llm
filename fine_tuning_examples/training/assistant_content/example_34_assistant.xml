@@ -20,7 +20,8 @@
     </error-location>
     
     <explanation>
-    Changed the ranges in the for loops so that the incorrect numbers are printed.
-    Unindented line 2, introducing a syntax error.
+    Line 1: Changed the range in the for loop from (1,6) to (5), adding a logical error.
+    Line 2: Unindented this line, adding a syntax error as it's the first line after a for loop.
+    Line 4: Changed the range in the for loop from (6,11) to (10), adding a logical error.
     </explanation>
 </root>    

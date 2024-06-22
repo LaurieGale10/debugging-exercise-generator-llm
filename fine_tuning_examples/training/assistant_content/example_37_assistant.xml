@@ -57,12 +57,17 @@
     </error-location>
     
     <explanation>
-    Replaced the assignment operator (=) with the equality operator (==) on lines 2 and 3, each adding a runtime error.
-    Removed the while True loop from line 5 of the original program, adding a logical error and causing lines 13 and 23 of the incorrect program (the break statements) to each add syntax errors.
-    Misspelt the call to the input function on line 6, adding a runtime error.
-    Replaced the equality operator (==) with the assignment operator (=) on lines 8 and 17, each adding a syntax error.
-    Added an int() cast to line 10, causing a runtime error.
-    Changed the equality operators (==) on lines 11 and 21 to not equal operators (!=), each adding logical errors.
-    Changed the number 42 to 22 in the print statement of line 22, adding a logical error.
+    Line 2: Replaced the assignment operator (=) with the equality operator (==) in this assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 3: Replaced the assignment operator (=) with the equality operator (==) in this assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 5 of original program: Removed the while True loop from line 5 of the original program, adding a logical error. This also causes syntax errors on lines 13 and 23 of the incorrect program (the break statements) to each add syntax errors.
+    Line 6: Misspelt the call to the input function to intput(), which is not a valid function, adding a NameError (an instance of a runtime error in Python).
+    Line 8: Replaced the equality operator (==) in the if statement condition with the assignment operator (=), adding a syntax error.
+    Line 10: Added an int() cast to the right-hand side of the assignment, adding a TypeError (an instance of a runtime error in Python) in this case.
+    Line 11: Changed the equality operator (==) to an inequality operator (!=), adding a logical error.
+    Line 13: Since the while loop is removed, this break statement now causes a syntax error.
+    Line 17: Replaced the equality operator (==) in the if statement condition with the assignment operator (=), adding a syntax error.
+    Line 21: Changed the equality operator (==) to an inequality operator (!=), adding a logical error.
+    Line 22: Changed the number 42 in the print statement to 22, adding a logical error.
+    Line 23: Since the while loop is removed, this break statement now causes a syntax error.
     </explanation>
 </root>

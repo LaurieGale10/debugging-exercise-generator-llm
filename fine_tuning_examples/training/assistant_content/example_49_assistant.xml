@@ -13,16 +13,16 @@
     </incorrect-program>
     
     <error-location>
-    Removed original line 1
+    Removed line 1 of original program
     1
     5
-    Removed original line 7
+    Removed line 7 of original program
     </error-location>
     
     <explanation>
-    Removed line 1, introducing a runtime error whenever a call to the random library is made.
-    Assigned the random_list variable on line 1 to include two random integers rather than three.
-    Removed line 7 that sorts the list, introducing a logical error.
-    Printed the user_input variable rather than the random_list with the user_input appended on line 5, introducing a logical error.
+    Line 1 of original program: Removed this import statement, introducing a NameError (an instance of a runtime error in Python) whenever a call to the random library is made.
+    Line 1: Assigned the random_list variable on line 1 to a list of two elements rather than three, adding a logical error.
+    Line 5: Printed the user_input variable rather than the random_list with the user_input appended on line 5, introducing a logical error.
+    Line 7 of original program: Removed the line that sorts the list, introducing a logical error.
     </explanation>
 </root>

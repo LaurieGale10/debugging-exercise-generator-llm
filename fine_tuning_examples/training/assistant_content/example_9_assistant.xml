@@ -28,10 +28,10 @@
     </error-location>
     
     <explanation>
-    Mismatched the brackets between " and ‘ for the input statement on line 2.
-    Added an extra bracket to the input() call on line 3.
-    Added some extra indentation after the if statement condition in line 7, adding a syntax error.
-    Changed the ** in line 8 to *, which results in a logically incorrect value being assigned to line 8
-    Printed the literal string "Result is: inputInteger", meaning the value of inputInteger is not printed at all, adding a logical error.
+    Line 1: Changed the opening quotation mark inside the print statement so the quotations are mismatched, adding a syntax error.
+    Line 3: Added an extra bracket to the input statement, adding a syntax error.
+    Line 7: Added some extra indentation to the line, adding a syntax error.
+    Line 8: Changed the ** operator to *, adding a logical error (inputInteger is multiplied by 4.0 rather than raised to the power of 4).
+    Line 11: Changed the formatting of the print statement, adding a logical error (the literal string "Result is: inputInteger" is printed instead of the value of the inputInteger variable).
     </explanation>
 </root>

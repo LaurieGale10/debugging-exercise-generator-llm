@@ -30,10 +30,11 @@
     </error-location>
     
     <explanation>
-    Removed the input statement in line 1, adding a ValueError. Also changed the = to a ==, adding a NameError.
-    Removed the quotes from the print statements in line 5.
-    Added syntactically invalid indentation in the body of the elif clause on line 9.
-    Slightly adjusted the output of line 11 so that is reads "You entered 3" instead of "You entered 4"
-    Removed the else clause and unindented the body of it, so that "That number is not valid" is always printed.
+    Line 1: Removed the input statement originally on this line, adding a ValueError (an instance of a runtime error in Python).
+    Line 1: Replaced the assignment operator (=) with an equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python).
+    Line 5: Removed the quotes from the print statement, adding a syntax error.
+    Line 9: Added syntactically invalid indentation in the body of the elif clause, adding a syntax error.
+    Line 11: Slightly adjusted the output on this line so that it reads "You entered 3" instead of "You entered 4", adding a logical error.
+    Line 12: Removed the else clause in the original program and unindented the body of it (line 12 of the incorrect program) so that "That number is not valid" is always printed, adding a logical error.
     </explanation>
 </root>

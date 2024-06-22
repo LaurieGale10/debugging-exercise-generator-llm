@@ -23,7 +23,7 @@
     </error-location>
     
     <explanation>
-    Replaced the assignment operator (=) with an equality operator (==).
-    Removed the quotes surrounding "Budapest" in the if statement condition, introducing a NameError in Python.
+    Line 1: Replaced the assignment operator (=) with an equality operator (==), adding a NameError (an instance of a runtime error in Python).
+    Line 7: Removed the quotes surrounding "budapest" in the if statement condition, introducing a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

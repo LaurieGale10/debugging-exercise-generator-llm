@@ -22,6 +22,8 @@
     </error-location>
     
     <explanation>
-    All of the errors have been added to line 4 in this example. Firstly, the two runtime errors were added by adding an underscore to the number1 and number2 references, each adding a separate runtime error. The logical error was added by replacing the multiplication operator (*) with the add operator (+), meaning the program description is not followed.
+    Line 4: Added an underscore to the number_1 variable so that it no longer refers to a variable in the program, adding a NameError (an instance of a runtime error).
+    Line 4: Added an underscore to the number_2 variable so that it no longer refers to a variable in the program, adding a NameError (an instance of a runtime error).
+    Line 4: Replaced the multiplication operator (*) with an addition operator (+), adding a logical error.
     </explanation>
 </root>

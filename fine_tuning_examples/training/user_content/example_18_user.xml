@@ -14,6 +14,6 @@ newCharacter = convert_to_uppercase(lowercaseCharacter)
 print("Lower case "+ lowercaseCharacter+" -> upper case "+newCharacter)
 </correct-program>
 
-<syntax>1</syntax>
-<runtime>2</runtime>
+<syntax>0</syntax>
+<runtime>3</runtime>
 <logical>3</logical>

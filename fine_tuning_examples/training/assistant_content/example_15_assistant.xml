@@ -22,8 +22,8 @@
     </error-location>
     
     <explanation>
-    Switched the assignment expressions in the assignment on line 1 so that the assignment is syntactically invalid.
-    Removed the line that displays the user's answers, meaning the program no longer fully adheres to the program description.
-    Changed the equality operator (==) with the inequality operator (!=), introducing a logical error. Now, "Correct!" will be printed when an incorrect answer is given.
+    Line 1: Switched the expressions in the assignment statement, adding a syntax error.
+    Line 3 and 4 of original program: Removed the line that displays the user's answers (and its corresponding documentation), meaning the program no longer fully adheres to the program description, adding a logical error.
+    Line 7: Replaced the equality operator (==) with the inequality operator (!=), introducing a logical error. Now, "Correct!" will be printed when an incorrect answer is given.
     </explanation>
 </root>

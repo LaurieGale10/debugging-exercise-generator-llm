@@ -21,8 +21,8 @@
     </error-location>
     
     <explanation>
-    Removed the colon from the end of line 2, adding a syntax error.
-    Removed the int() cast from line 3, adding a type error (a type of runtime error in Python).
-    Removed the quotation marks from line 7, adding a syntax error.
+    Line 2: Removed the colon from the end of the line, adding a syntax error.
+    Line 3: Removed the int() cast from line 3, adding a TypeError (an instance of a runtime error in Python).
+    Line 7: Removed the quotation marks from the print statement adding a syntax error.
     </explanation>
 </root>

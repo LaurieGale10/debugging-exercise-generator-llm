@@ -14,7 +14,8 @@
     </error-location>
     
     <explanation>
-    Incorrectly indented line 1.
-    Changed the closing quotation mark and bracket to mismatch with the opening ones, each adding another syntax error.
+    Line 1: Incorrectly indented the line, adding a syntax error.
+    Line 1: Changed the closing quotation mark to mismatch with the opening one, adding a syntax error.
+    Line 1: Changed the closing bracket to mismatch with the opening one, adding a syntax error.
     </explanation>
 </root>

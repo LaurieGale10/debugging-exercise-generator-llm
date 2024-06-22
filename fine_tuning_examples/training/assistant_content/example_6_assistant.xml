@@ -20,7 +20,7 @@
     </error-location>
     
     <explanation>
-    Adjusted the >= inequality in the condition of the if statement in line 4 to be >, meaning the program will output the incorrect output when the user inputs 18.
-    Duplicated the statement on line 7 to be outside of the if statement too, meaning it will erroneously be printed even when the user is able to vote.
+    Line 4: Adjusted the >= inequality in the condition of the if statement to be >, adding a logical error (the program's output will be incorrect when the user inputs 18).
+    Line 8: Duplicated the statement on line 7 to be outside of the if statement too, adding a logical error (this statement will be erroneously printed even when the user is able to vote).
     </explanation>
 </root>

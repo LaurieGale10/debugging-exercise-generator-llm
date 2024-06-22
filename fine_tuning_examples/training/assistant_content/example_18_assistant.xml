@@ -27,10 +27,11 @@
     </error-location>
     
     <explanation>
-    Changed the spelling of the reference to the asciiValue variable, introducing a runtime error.
-    Changed the function call on line 4 to be str() instead of chr(), meaning the ASCII value is assigned to newCharacter rather than the ASCII value's equivalent character.
-    Replaced the input() function call on line 7 with the misspelt "intput" function.
-    Replaced the convert_to_uppercase() function call in line 8 with a call to the str() function, introducing a logical error.
-    Switched the references to the newCharacter and lowercaseCharacter variables within the print statement so the program's output is not correct. Also renamed lowercaseCharacter to lowerCaseCharacter which adds a runtime error.
+    Line 3: Changed the spelling of the reference to the asciiValue variable to AsciiValue. This means it is no longer referencing a variable, introducing a NameError (an instance of a runtime error in Python).
+    Line 4: Replaced the chr() function call with str(), adding a logical error. This is because the ASCII value is assigned to newCharacter rather than the ASCII value's equivalent character.
+    Line 7: Changed the spelling of the input() function call to the misspelt "intput" so that it longer refers to a valid function, adding a NameError (an instance of a runtime error in Python).
+    Line 8: Replaced the convert_to_uppercase() function call with a call to the str() function, introducing a logical error.
+    Line 9: Switched the references to the newCharacter and lowercaseCharacter variables within the print statement so the program's output is not correct, adding a logical error.
+    Line 9: Renamed the lowercaseCharacter variable reference to lowerCaseCharacter, adding a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

@@ -57,11 +57,17 @@
     </error-location>
     
     <explanation>
-    Switched the terms in the first two assignments on lines 2 and 3, both introducing syntax errors.
-    Removed the colon at the end of line 5.
-    Replaced the equality operators (==) with assignment operators (=) in lines 9 and 18, each introducing syntax errors.
-    Removed the brackets from the print statements in line 33.
-    Switched the right-hand side of the comparisons in the if statement conditions in lines 9 and 18. The code for when A is inputted is now executed when B is inputted, and vice versa.
-    Indented line 33 so it's executed after each iteration of the while loop, rather than at the end.
+    Line 2: Switched the terms around in the assignment, adding a syntax error.
+    Line 3: Switched the terms around in the assignment, adding a syntax error.
+    Line 5: Removed the colon at the end of the while loop, adding a syntax error.
+    Line 9: Replaced the equality operators (==) with an assignment operator (=) in the condition of the if statement, adding a syntax error.
+    Line 9: Changed the right-hand side of the if statement condition from "A" to "B", adding a logical error.
+    Line 11: Replaced the assignment operator (=) with the inequality operator (==) in the assignment, introducing a NameError (an instance of a runtime error in Python) in this case.
+    Line 18: Replaced the equality operators (==) with an assignment operator (=) in the condition of the if statement, adding a syntax error.
+    Line 18: Changed the right-hand side of the if statement condition from "B" to "A", adding a logical error.
+    Line 21: Replaced the assignment operator (=) with the inequality operator (==) in the assignment, introducing a NameError (an instance of a runtime error in Python) in this case.
+    Line 21: Removed the int() cast from the right-hand side of the assignment, adding a TypeError (an instance of a runtime error in Python).
+    Line 33: Removed the brackets from the print statement, adding a syntax error.
+    Line 33: Indented this line so it's executed within each each iteration of the while loop rather than at the end of the program, adding a logical error.
     </explanation>
 </root>    

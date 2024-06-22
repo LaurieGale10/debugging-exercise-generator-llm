@@ -19,7 +19,7 @@
     </error-location>
     
     <explanation>
-    Replaced the <= inequality with < on line 2, making the program logically incorrect for the edge case of total = 100.
-    Replaced the += with = on line 4, meaning the running total is no longer collected. Instead, the total variable only holds the user's most recently inputted value.
+    Line 2: Replaced the less than or equal inequality (<=) with the less than inequality (<) on line 2, adding a logical error (logically incorrect for the edge case of total = 100).
+    Line 4: Replaced the addition assignment operator (+=) with the assignment operator (=) on line 4, adding a logical operator.
     </explanation>
 </root>

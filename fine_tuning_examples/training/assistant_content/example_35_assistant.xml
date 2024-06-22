@@ -45,6 +45,7 @@
     </error-location>
     
     <explanation>
-    Replaced the equality operators (==) on lines 12 and 22 with inequality operators (==), meaning the program will output "Correct" whenever they guess incorrectly.
+    Line 12: Replaced the equality operator (==) with an inequality operator (!=), adding a logical error.
+    Line 22: Replaced the equality operator (==) with an inequality operator (!=), adding a logical error.
     </explanation>
 </root>    

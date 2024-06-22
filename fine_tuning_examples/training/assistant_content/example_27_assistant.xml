@@ -35,9 +35,16 @@
     </error-location>
     
     <explanation>
-    Switched the terms of the assignments in lines 1, 2, 3, 10 and 11, so each are syntactically invalid.
-    Added an additional closing bracket to end of lines 6 and 7. The int() casts from these two lines were also removed, each adding a runtime error.
-    Moved the correctly formatted ‘f' on line 13 to immediately after the print token, adding a syntax error.
-    Removed the braces around the timeToFillPool variable reference in line 14, meaning the string "timeToFillPool" is printed rather than its value.
+    Line 1: Switched the order of the terms in the assignment, adding a syntax error.
+    Line 2: Switched the order of the terms in the assignment, adding a syntax error.
+    Line 3: Switched the order of the terms in the assignment, adding a syntax error.
+    Line 6: Added an additional closing bracket to the end of the line, adding a syntax error.
+    Line 6: Removed the int() cast from this line, adding a TypeError (an instance of a runtime error in Python).
+    Line 7: Added an additional closing bracket to the end of the line, adding a syntax error.
+    Line 7: Removed the int() cast from this line, adding a TypeError (an instance of a runtime error in Python).
+    Line 10: Switched the order of the terms in the assignment, adding a syntax error.
+    Line 11: Switched the order of the terms in the assignment, adding a syntax error.
+    Line 13: Moved the correctly formatted 'f' on line 13 to immediately after the print keyword, adding a NameError (an instance of a runtime error).
+    Line 14: Removed the braces around the timeToFillPool variable reference in line 14, meaning the string "timeToFillPool" is printed rather than its value, adding a logical operator.
     </explanation>
 </root>

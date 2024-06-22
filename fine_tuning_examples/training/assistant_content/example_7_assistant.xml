@@ -20,8 +20,8 @@
     </error-location>
     
     <explanation>
-    Changed the inequality in the condition of the if statement to be => instead of >=, adding a syntax error.
-    Removed the colon at the end of line 4, adding a syntax error.
-    Removed the brackets from the print statement on line 7.
+    Line 4: Changed the inequality in the condition of the if statement to be => instead of >=, adding a syntax error.
+    Line 4: Removed the colon at the end of the if statement, adding a syntax error.
+    Line 7: Removed the brackets from the print statement, adding a syntax error.
     </explanation>
 </root>

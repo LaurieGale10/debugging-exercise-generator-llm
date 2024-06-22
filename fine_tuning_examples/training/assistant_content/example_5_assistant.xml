@@ -23,9 +23,9 @@
     </error-location>
     
     <explanation>
-    Replaced the assignment operator (=) with the equality operator on line 1, adding a runtime error.
-    Changed the age variable reference on line 4 to a non-existent age_input, adding a runtime error.
-    Added a logical adding by replacing the >= inequality with a > on line 4.
-    Removed the necessary indentation to line 7, adding a syntax error.
+    Line 1: Replaced the assignment operator (=) with the equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python).
+    Line 4: Renamed the age variable reference to a non-existent age_input, adding a NameError (an instance of a runtime error in Python).
+    Line 4: Replaced the >= inequality with a > in the condition of the if statement, adding a logical error.
+    Line 7: Removed the necessary indentation for a line within an else block, adding a syntax error.
     </explanation>
 </root>

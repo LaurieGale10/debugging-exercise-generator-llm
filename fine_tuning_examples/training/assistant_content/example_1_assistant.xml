@@ -12,6 +12,6 @@
     </error-location>
     
     <explanation>
-    Replaced the opening bracket with a curly brace.
+    Line 1: Replaced the opening bracket with a curly brace, adding a syntax error.
     </explanation>
 </root>

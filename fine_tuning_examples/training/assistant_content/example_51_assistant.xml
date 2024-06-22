@@ -30,6 +30,7 @@
     </error-location>
     
     <explanation>
-    Replaced the "or" operators on lines 7 and 12 with "and", adding a logical error.
+    Line 7: Replaced the "or" operator with "and" in the if statement condition, adding a logical operator.
+    Line 12: Replaced the "or" operator with "and" in the if statement condition, adding a logical operator.
     </explanation>
 </root>

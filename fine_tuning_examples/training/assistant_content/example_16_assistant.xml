@@ -1,29 +1,46 @@
 <root>
     <thinking>
-    Novices often have misconceptions around the syntax of assignment statements, sometimes thinking the term being assigned can be on either side of the assignment. I can therefore switch round the terms in the assignment to introduce a syntax error.
-    To add logical errors, I can simply remove one of the lines in such a way to add a logical error without adding a syntax or logical error. Novices don't always print every necessary piece of information correctly, so I can just remove the statement that prints the user's answers. Novices also sometimes mix up their comparison operators, so I can change the comparison operator within the if statement condition.
+    There are lots of errors to add here, so let'’'s break them down by error type.
+    First: syntax errors. Novice programmers often struggle with correctly indenting in Python. Therefore both of the clauses of the if statement can be indented, which introduces two syntax errors. Novice programmers also often mismatch quotation marks in their output statements, so some of the quotation marks in the program can be added.
+    To add runtime errors, novices sometimes erroneously capitalise variable references, so this can be done somewhere in the program. A type error (a form of runtime error in Python) could also be added by introducing an erroneous int() cast.
+    To add logical errors, the input() function could be entirely removed, so that no user input is taken, violating a part of the program description. One of the print statements could also be adjusted to output a faulty message e.g “Correct” instead of “incorrect”.
     </thinking>
     
     <incorrect-program>
-    input("What is the capital of Hungary? ") = user_answer
+    user_answer == "What is the capital of Hungary? "
+    
+    # Display the user's answer
+    print("You answered: {User_Answer}")
     
     # Check if the answer is correct and display the appropriate message
-    if user_answer.strip().lower() != "budapest":
-        print("Correct!")
+    if int(user_answer) != "budapest":
+    print("Correct!")
     else:
-        print("Incorrect. The correct answer is Budapest.")
+    print("Correct!'')
+    
     </incorrect-program>
     
     <error-location>
     1
-    Removed line 3 of original program
-    Removed line 4 of original program
+    1
+    4
     7
+    7
+    8
+    10
+    10
+    10
     </error-location>
     
     <explanation>
-    Switched the assignment expressions in the assignment on line 1 so that the assignment is syntactically invalid.
-    Removed the line that displays the user's answers, meaning the program no longer fully adheres to the program description.
-    Changed the equality operator (==) with the inequality operator (!=), introducing a logical error. Now, "Correct!" will be printed when an incorrect answer is given.
+    Line 1: Replaced the assignment operator (=) with the equality operator (==), introducing a NameError (an instance of a runtime error in Python). 
+    Line 1: Removed the input() function call, adding a logical error. Now the user_answer variable is illogically assigned to "What is the capital of Hungary" rather than the user's input.
+    Line 4: Capitalised the reference to the user_answer variable, introducing a NameErorr (an instance of a runtime error in Python).
+    Line 7: Added an int cast to the user_answer variable, adding a TypeError (an instance of a runtime error in Python).
+    Line 7: Changed the equality operator (==) to the inequality (!=) operator, adding a logical error.
+    Line 8: Unindented this line, adding a syntax error.
+    Line 10: Unindented this line, adding a syntax error.
+    Line 10: Adjusted the closing quotation marks in the print statement so that they don't match with the opening ones, adding a syntax error.    
+    Line 10: Changed the text in the print statement to "Correct" in place of "Incorrect", adding a logical error.
     </explanation>
-</root>
+</root>    

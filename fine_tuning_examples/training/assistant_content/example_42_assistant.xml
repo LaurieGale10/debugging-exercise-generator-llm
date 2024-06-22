@@ -19,10 +19,10 @@
     
     <explanation>
     It's difficult to add 10 syntax errors to this program without significantly altering it's structure, so only three were added.
-    Switched the expressions on each side of the assignment, making the assignment syntactically invalid.
-    Removed one of the commas in the definition of the list in line 1.
-    Changed one of the flavour names in the ice_cream_flavours list, meaning the list's contents violate the exercise description.
-    Replaced the assignment operator (=) with the equality operator (==) in line 1, causing a NameError (a type of RuntimeError in Python).
-    Removed the brackets from the print statement in line 2.
+    Line 1: Switched the expressions on each side of the assignment, adding a syntax error.
+    Line 1: Removed one of the commas in the definition of the list, adding a syntax error.
+    Line 1: Replaced the assignment operator (=) with the equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 1: Changed one of the flavour names in the ice_cream_flavours list, meaning the list's contents violate the exercise description, adding a logical error.
+    Line 2: Removed the brackets from the print statement, adding a syntax error.
     </explanation>
 </root>

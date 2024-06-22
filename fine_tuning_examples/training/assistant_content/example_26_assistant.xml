@@ -24,6 +24,6 @@
     </error-location>
     
     <explanation>
-    Merged the first two assignments onto line with incorrect syntax.
+    Line 1: Merged the first two assignments on lines 1 and 2 of the original program onto the same line with incorrect syntax, adding a syntax error.
     </explanation>
 </root>

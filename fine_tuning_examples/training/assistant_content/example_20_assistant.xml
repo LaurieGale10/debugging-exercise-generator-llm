@@ -15,14 +15,14 @@
     </incorrect-program>
     
     <error-location>
-    1/removed line 1
+    Removed lines 1 and 2 of the original program
     2
     4
     </error-location>
     
     <explanation>
-    Removed the "import math" statement, causing a runtime error when math.sqrt() is called in line 4.
-    Adjusted the bracketing of line 2 such that the brackets are unbalanced.
-    Changed the + operator in line 4 to the – operator, meaning the hypotenuse is not assigned the correct variable.
+    Line 1 of original program: Removed this import statement, causing a NameError (an instance of a runtime error in Python) when math.sqrt() is called in line 4.
+    Line 2: Adjusted the bracketing of such that they are unbalanced, adding a syntax error.
+    Line 4: Changed the add (+) operator a subtract (–) operator, adding a logical error.
     </explanation>
 </root>

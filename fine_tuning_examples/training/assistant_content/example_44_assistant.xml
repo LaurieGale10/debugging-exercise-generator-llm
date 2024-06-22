@@ -26,9 +26,10 @@
     </error-location>
     
     <explanation>
-    Switched around the order of the assignment in line 1.
-    Added extra closing brackets to lines 4 and 10.
-    Merged lines 7 and 8 in a syntactically incorrect manner.
-    Changed the parameters of the remove() function so that the numbers 2 and 4 are removed instead of 1 and 3.
+    Line 1: Flipped the terms in the assignment either side of the equals sign, adding a syntax error.
+    Line 4: Added an extra closing bracket to the end of the line, adding a syntax error.
+    Line 7:  Changed the parameters of the remove() function so that the numbers 2 and 4 are removed instead of 1 and 3, adding a logical error.
+    Line 7: Merged lines 7 and 8 of the original program in a syntactically incorrect manner, adding a syntax error.
+    Line 10: Added an extra closing bracket to the end of the line, adding a syntax error.
     </explanation>
 </root>

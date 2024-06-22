@@ -29,11 +29,14 @@
     </error-location>
     
     <explanation>
-    Incorrectly indented line 3.
-    Changed each upper bound parameter in the randint() function to be 1000 instead of 100.
-    Misspelt calls to the print statements in lines 4 and 8.
-    Replaced an assignment operator (=) with an equality operator (==) on line 5, adding a runtime error.
-    Also added an extra bracket to the end of line 5.
-    Removed the brackets from the sort() function on line 7, adding a logical error.
+    Line 3: Incorrectly indented this line, adding a syntax error.
+    Line 3: Changed the upper bound parameter for the first function call to be 1000 instead of 100, adding a logical error.
+    Line 3: Changed the upper bound parameter for the second function call to be 1000 instead of 100, adding a logical error.
+    Line 3: Changed the upper bound parameter for the third function call to be 1000 instead of 100, adding a logical error.
+    Line 4: Capitalised the print statement, adding a NameError (an instance of a runtime error in Python).
+    Line 5: Added an extra bracket to the end of the line, adding a syntax error.
+    Line 5: Replaced an assignment operator (=) with an equality operator (==) in the assignment, , adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 7: Removed the brackets from the sort() function, adding a logical error in this case.
+    Line 8: Capitalised the print statement, adding a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

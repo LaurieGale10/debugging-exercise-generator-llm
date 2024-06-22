@@ -26,10 +26,12 @@
     
     <explanation>
     It's difficult to add 12 syntax errors without significantly changing the structure of the program, so only four were added.
-    Mismatched the square brackets on line 3.
-    Switched around the terms in the assignment in line 5, introducing a syntax error.
-    Changed the call to the int() function to "to_int", adding a runtime error.
-    Removed the commas from the print statements on lines 4 and 8, each adding a syntax error.
-    Misspelt references to the user_input and random_list variables on lines 6 and 8 respectively, each introducing runtime errors.
+    Line 3: Mismatched the square brackets for the list, adding a syntax error.
+    Line 4: Removed the comma from the print statement, adding a syntax error.
+    Line 5: Switched around the terms in the assignment, adding a syntax error.
+    Line 5: Changed the call to the int() function to "to_int", adding a NameError (an instance of a runtime error in Python).
+    Line 6: Changed the spelling of user_input to user_Input, meaning it no longer references an existing variable, adding a NameError (an instance of a runtime error in Python).
+    Line 8: Removed the comma from the print statement, adding a syntax error.
+    Line 8: Changed the spelling of random_list to random_List, meaning it no longer references an existing variable, adding a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

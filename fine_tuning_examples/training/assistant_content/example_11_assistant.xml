@@ -21,12 +21,12 @@
     <error-location>
     4
     7
-    12
+    Removed line 12 of original program
     </error-location>
     
     <explanation>
-    The first if statement clause is logically incorrect due to the replacement of == with <=. This still makes the program correct for the case of number == 1 but incorrect for number < 1.
-    Changed the Spanish translation to French on line 7, making the output logically incorrect.
-    Removed the else clause of the if statement, meaning the print statement on line 12 is only outputted if number == 4, rather than if number > 4.
+    Line 4: Replaced the equality operator (==) with <=, adding a logical error (prints the incorrect value for when number <= 0).
+    Line 7: Changed the output to be French instead of Spanish, adding a logical error.
+    Line 12 of original program: Removed the else clause, adding a logical error ("That number is not valid." is erroneously printed if number == 4).
     </explanation>
 </root>

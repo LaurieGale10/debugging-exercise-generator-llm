@@ -24,8 +24,9 @@
     
     <explanation>
     The specified number of errors were not able to be added without significantly changing the program, so only 3 logical errors were added.
-    Changed the function call from math.sqrt() to math.pow(), meaning the hypotenuse variable is assigned an incorrect value.
-    Removed the brackets from the print statement in line 7, as well as switching around the references to the opposite and adjacent variables so the print statements' output is logically incorrect.
-    Outputting the string "hypotenuse" instead of the reference to the value of the hypotenuse variable.
+    Line 6: Changed the function call from math.sqrt() to math.pow(), adding a logical error as the hypotenuse variable is assigned an incorrect value.
+    Line 7: Removed the brackets from the print statement, adding a syntax error.
+    Line 7: Switched around the references to the opposite and adjacent variables in the print statement, adding a logical error.
+    Line 8: Outputting the string "hypotenuse" instead of the reference to the hypotenuse variable, adding a logical error.
     </explanation>
 </root>    
