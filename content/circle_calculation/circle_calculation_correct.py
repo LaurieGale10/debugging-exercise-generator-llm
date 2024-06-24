@@ -1,9 +1,5 @@
-# CIRCLE CALCULATION
-
-# Imports
 import math
 
-# Input
 print("Input a radius (float):")
 circleRadius = math.radians(float(input())) #Need to convert circle radius to radians
 

@@ -1,0 +1,6 @@
+Create a "guess the number" game for five players. It should work like this:
+- Each player chooses a different number between 1 and 100.
+- Generate a random number.
+- Whoever was furthest from the random number is out of the game.
+​- The four remaining players then pick a new number.
+This continues with one player being removed each round until only one player is left and they are the winner.
