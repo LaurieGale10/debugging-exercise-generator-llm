@@ -27,9 +27,12 @@
     </error-location>
     
     <explanation>
-    Switched the terms in the assignment of line 1, introducing a syntax error.
-    Changed both operators in lines 4 and 5 to division, each introducing logical errors.
-    Replaced the two closing quotation marks in lines 8 and 9 with different quotations, introducing syntax errors.
-    Switched around the variable references being printed in lines 8 and 9, making the program's output logically incorrect.
+    Line 1: Switched the terms in the assignment around, adding a syntax error.
+    Line 4: Replaced the integer division operator (//) with the float division operator (/), adding a logical error.
+    Line 5: Replaced the modulo operator (%) with the float division operator (/), adding a logical error.
+    Line 8: Mismatched the quotation marks in the print statement, adding a syntax error.
+    Line 8: Printed the leftover_people variable instead of full_coaches, adding a logical error.
+    Line 9: Mismatched the quotation marks in the print statement, adding a syntax error.
+    Line 9: Printed the full_coaches variable instead of leftover_people, adding a logical error.
     </explanation>
 </root>

@@ -11,7 +11,7 @@
     return newCharacter
     
     lowercaseCharacter = input('Enter lowercase character: ')
-    newCharacter = convert_to_uppercase(lowercaseCharacter,)
+    newCharacter = convert_to_uppercase(lowercaseCharacter")
     print("Lower case +" lowercaseCharacter+" -> upper case "+newCharacter)
     
     </incorrect-program>
@@ -26,7 +26,7 @@
     <explanation>
     Line 3: Removed the assignment operator (=) from the assignment, adding a syntax error.
     Line 5: Unindented this line, adding a syntax error.
-    Line 8: Added a comma in the call to the convert convert_to_uppercase() function #TODO: This doesn't add a syntax error.
+    Line 8: Added a quotation mark in the call to the convert convert_to_uppercase() function.
     Line 9: Switched around the " and + symbols after the "Lower case" string, adding a syntax error as the print statement is no longer correctly formatted.
     </explanation>
 </root>

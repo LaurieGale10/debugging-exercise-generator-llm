@@ -9,9 +9,9 @@
     <incorrect-program>
     # Input integers A and B
     A = int(input("Enter the first integer (A): "))
-    B = int(input("Enter the second integer (B): ")))
+    B = int(input("Enter the second integer (B): ")]
     
-    if A =< B:
+    if A <= B
         for i in range(A, B):
             print(A, end=' ')
     else:
@@ -20,7 +20,7 @@
     </incorrect-program>
     
     <error-location>
-    2
+    3
     5
     5
     6
@@ -30,9 +30,12 @@
     </error-location>
     
     <explanation>
-    Replaced the closing bracket on line 3 with a square bracket.
-    Removed the colon at the end of line 5.
-    Changed the ranges in the for loops on lines 6 and 8, both adding logical errors.
-    Changed both print statements to print the variables A and B rather than the numbers between them.
+    Line 3: Replaced the closing bracket at the end of the line with a square bracket, adding a syntax error
+    Line 5: Removed the colon at the end of line 5, adding a syntax error.
+    Line 5: Replaced the less than equality (<) with a less than or equal equality (<=), adding a logical error (the wrong branch of the if statement will be called for when A == B).
+    Line 6: Changed the stop parameter in the for loop from B + 1 to B, adding a logical error.
+    Line 7: Changed the output of the print statement to be A rather than i, adding a logical error.
+    Line 9: Changed the stop parameter in the for loop from B - 1 to B, adding a logical error.
+    Line 10: Changed the output of the print statement to be B rather than i, adding a logical error.
     </explanation>
 </root>

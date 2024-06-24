@@ -1,16 +1,16 @@
 <root>
     <thinking>
-    The syntax of the first line by can be incorrectly manipulated by conglomerating two of the keywords, input and int, together into one syntactically correct one, as novices programmers have been observed to make this sort of change.
+    Novice programming students often mismatch the number of brackets in a line of code incorrectly, causing syntax errors to be added. This can be done to line 3, where there are already two pairs of brackets.
     A type error (an instance of a runtime error in Python) could be added by changing the type of one of the values being assigned to inputInteger.
     </thinking>
     
     <incorrect-program>
     # Input expression
     print('Input an integer')
-    inputInteger = intput()
+    inputInteger = int((input())
     
     # Make calculation (simple if)
-    if (inputInteger<50) :
+    if (inputInteger<50):
        inputInteger += "10"
     inputInteger = inputInteger**4.0
     
@@ -24,7 +24,7 @@
     </error-location>
     
     <explanation>
-    Line 3: Changed the int(input()) to the syntactically incorrect intput() statement on line 3. //NEEDS CHANGING
-    Converted the value 10 to a string on line 7, introducing a type error due to being unable to increment a variable by a string literal.
+    Line 3: Added an extra opening bracket after the int() cast, adding a syntax error.
+    Line 7: Converted the value 10 to a string, introducing a TypeError (an instance of a runtime error in Python).
     </explanation>
 </root>

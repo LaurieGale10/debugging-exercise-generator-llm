@@ -32,10 +32,12 @@
     </error-location>
     
     <explanation>
-    Enclosed the assignment operators (=) in lines 1 and 2 in quotation marks, adding syntax errors.
-    Replaced the < inequality with > in line 8, adding a logical error.
-    Capitalised the references to the days variable in lines 10 and 13, each adding runtime errors.
-    Changed the type of the 1 in line 10 to a string, adding a runtime error.
-    Changed the * operator to + in line 12, adding a logical error.
+    Line 1: Enclosed the assignment operator (=) in quotation marks, adding syntax errors.
+    Line 2: Enclosed the assignment operator (=) in quotation marks, adding syntax errors.
+    Line 8: Replaced the less than inequality (<) with a greater than inequality (>) in line 8, adding a logical error.
+    Line 10: Capitalised the reference to the days variable so that it no longer refers to a valid variable, adding a NameError (an instance of a runtime error in Python).
+    Line 10: Encapsulated the 1 in quotation marks so it's a string instead of an int, adding a TypeError (an instance of a runtime error in Python).
+    Line 12: Changed the multiplication operator (*) to an addition operator (+), adding a logical error.
+    Line 13: Capitalised the reference to the days variable so that it no longer refers to a valid variable, adding a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

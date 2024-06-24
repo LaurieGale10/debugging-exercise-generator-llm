@@ -12,6 +12,6 @@
     </error-location>
     
     <explanation>
-    Line 1: Changed the print statement's parameter to be "greetings land" instead of "Hello world", adding a logical error to the program's output.
+    Line 1: Changed the output of the print statement to "greetings land" instead of "Hello world", adding a logical error.
     </explanation>
 </root>

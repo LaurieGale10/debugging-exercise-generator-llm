@@ -17,8 +17,8 @@
     </error-location>
     
     <explanation>
-    Replaced the assignment operator (=) with an equality (==) operator in line 1.
-    Added an additional closing bracket to line 2.
-    Removed the brackets from the print statement on line 3.
+    Line 1: Replaced the assignment operator (=) with an equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 2: Added an additional closing bracket to the end of this line, adding a syntax error.
+    Line 3: Removed the brackets from the print statement, adding a syntax error.
     </explanation>	
 </root>

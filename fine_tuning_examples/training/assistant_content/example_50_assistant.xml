@@ -26,9 +26,10 @@
     1
     2
     Removed line 4 of original program
+    4
     Removed line 5 of original program
     5
-    6
+    
     10
     15
     </error-location>
@@ -41,8 +42,7 @@
     Line 4: Replaced the "or" logical operator with "and", adding a logical error.
     Line 5 of original program: Removed the conversion of country2 to uppercase, adding a logical error.
     Line 5: Replaced the assignment operator (=) with the equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python) in this case.
-    Line 6:
     Line 10: Replaced the "or" logical operator with "and", adding a logical error.
-    Line 15: Mispelt the reference to the shortened_country1 variable so that it no longer refers to an existing variable, adding a NameError (an instance of a runtime error in Python). #TODO: Add another logical error.
+    Line 15: Mispelt the reference to the shortened_country1 variable so that it no longer refers to an existing variable, adding a NameError (an instance of a runtime error in Python).
     </explanation>
 </root>

@@ -8,7 +8,7 @@
     year = int(input("Enter a year: "))
     
     # Check if the year is a leap year
-    if (year % 4 = 0 and year % 100 != 0) or (year % 400 = 0):
+    if (year % 4 = 0 and year % 100 != 0) or (year % 400 == 0):
         print("LEAP")
     elif:
         print("COMMON")
@@ -20,7 +20,7 @@
     </error-location>
     
     <explanation>
-    Replaced the = after "year % 4" on line 5 with a ==.
-    Changed the "else" keyword to "elif" on line 7.
+    Line 5: Replaced the equality operator (==) with an assignment operator (=) in the first if statement condition, adding a syntax error in this case.
+    Line 7: Changed the "else" keyword to "elif", adding a syntax error.
     </explanation>
 </root>

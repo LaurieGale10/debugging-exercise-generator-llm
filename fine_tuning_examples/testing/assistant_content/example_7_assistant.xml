@@ -33,11 +33,13 @@
     </error-location>
     
     <explanation>
-    Replaced assignment operators (=) with equality operators (==), adding two runtime errors.
-    Incorrectly assigned the vowel_count variable to 10 instead of 0.
-    Removed the quotation marks from line 4, adding a syntax error.
-    Added a "not" operator to line 9, adding a logical error. Also misspelt the "in" keyword, adding a syntax error.
-    Unindented line 10.
-    Removed the closing } from the print statement in line 12.
+    Line 3: Replaced the assignment operator (=) with an equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 3: Incorrectly assigned the vowel_count variable to 10 instead of 0, adding a logical error.
+    Line 4: Replaced the assignment operator (=) with an equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 4: Removed the quotes from the string "aeiou", adding a syntax error in this case.
+    Line 9: Capitalised the "in" keyword, adding a syntax error in this case.
+    Line 9: Added a "not" operator to the condition of the if statement, adding a logical error.
+    Line 10: Unindented this line, adding a syntax error.
+    Line 12: Removed the closing curly brace } from the print statement, adding a syntax error.
     </explanation>
 </root>

@@ -16,7 +16,7 @@
     </incorrect-program>
     
     <error-location>
-    Removed original line 1
+    Removed line 1 of original program
     2
     4
     6
@@ -24,10 +24,10 @@
     </error-location>
     
     <explanation>
-    Removed the import statement, raising a runtime error whenever a random selection is called.
-    Changed the range in the for loop so the loop iterates an incorrect number of times.
-    Unindented line 4, introducing a logical error.
-    Replaced the assignment operator (=) on line 6 with an inequality operator (==), introducing a runtime error.
-    Changed the variable reference in the print statement from selected_number to number, adding a logical error.
+    Line 1 of original program: Removed the import statement, adding a NameError (an instance of a runtime error in Python) whenever a call to the random library is made.
+    Line 2: Changed the range in the for loop so it iterates five times instead of four, adding a logical error.
+    Line 4: Unindented this line so it's no longer executed within the for loop, adding a logical error.
+    Line 6: Replaced the assignment operator (=) with an equality operator (==) in the assignment, adding a NameError (an instance of a runtime error in Python) in this case.
+    Line 8: Changed the variable reference in the print statement from selected_number to number, meaning the incorrect variable is printed, adding a logical error.
     </explanation>
 </root>
