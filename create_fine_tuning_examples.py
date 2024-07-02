@@ -18,7 +18,8 @@ You must complete the following steps, all enclosed in <root> XML tags:
 3) Within <error-location> XML tags, write the line number of each error that you have injected. Ensure the line numbers correctly correspond to the lines containing errors within the incorrect program.
 4) Explain each error you have injected within <explanation> XML tags."""
 
-training_examples = []
+number_training_examples = 53 #In future, could change this to be number of files in assistant and user content files
+number_testing_examples = 11
 
 def format_content(user_content: str, assistant_content: str) -> json:
     return [{"role": "system", "content": system_prompt}, {"role": "user", "content": user_content}, {"role": "assistant", "content": assistant_content}]
@@ -62,5 +63,5 @@ def create_training_json(examples_to_include: list[str], json_file_name: str = "
             assistant_content_filename = os.path.join(script_dir, f"fine_tuning_examples/training/assistant_content/example_{example}_assistant.xml")
             write_jsonl_line(user_content_filename, assistant_content_filename, jsonfile)
 
-create_training_json([i for i in range(1,54)])
-create_testing_json([i for i in range(1,12)])
+create_training_json([i for i in range(1,number_training_examples + 1)])
+create_testing_json([i for i in range(1,number_testing_examples + 1)])
